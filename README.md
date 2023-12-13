@@ -9,4 +9,5 @@ After training these 16 models (for each type, so 48 in total), we then examined
 This was then repeated across both datasets: the CORA and Wikipedia datasets. The Cora dataset was chosen to its ubiquitous usage in the GNN literature, and I chose the WIkipedia dataset to (a) examine the effects of inductive learning on the explainability of the models and (b) to examine the effects of a larger dataset with more classes on the explainability of the models.
 
 ***How to Use***
+
 In general, usage of this project is very simple. project.ipynb is the Jupyter notebook utilized to run the code for this project, while project.py contains the raw python script that was used. requirements.txt contains a list of all dependencies needed to properly run this project. no user input is needed to run the code, with the outputs mainly being the graphical representations of feature importance.
